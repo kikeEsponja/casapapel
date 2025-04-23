@@ -7,11 +7,12 @@ body{
     background: #000;
     color: #900;
 }
-header{
+/*header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: -1% 1% -1% 1%;
+    background: #000;
 }
 ul{
     display: flex;
@@ -27,18 +28,45 @@ a{
     color:#900;
     text-decoration: none;
     font-size: 20px;
-}
+}*/
 hr{
     width: 100%;
     height: 8px;
     background-color: #900;
     border: none;
 }
-.hero {
+section{
+    background: #900;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: #900 3px solid;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.contenedor-recuadros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recuadro{
+    width: 40%;
+    height: 300px;
+    margin: 1%;
+}
+.recuadro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+.hero_index {
     position: relative;
     width: 100%;
     height: 100vh; /* Ocupa toda la altura del viewport */
-    background: url('../image/casapapel_5.jpg') no-repeat center center/cover;
+    background: url('../image/casapapel_2.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +78,7 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
     height: 300px;
 }
 .la_casa_de_papel{
@@ -83,3 +111,70 @@ hr{
     display: flex;
     justify-content: center;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  
+  img {
+    height: 50px;
+  }
+  
+  #boton-hamburguesa {
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: none; /* Oculto en pantallas grandes */
+  }
+  
+  #menu-hamburguesa ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu-hamburguesa ul li {
+    padding: 15px;
+  }
+  
+  #menu-hamburguesa ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 700px) {
+    #boton-hamburguesa {
+      display: block;
+    }
+  
+    #menu-hamburguesa {
+      width: 100%;
+    }
+  
+    #menu-hamburguesa ul {
+      display: block;
+      text-align: center;
+      padding: 0;
+    }
+  
+    #menu-hamburguesa ul li {
+      padding: 10px 0;
+    }
+  
+    /* Ocultar por defecto */
+    #menu-hamburguesa.oculto {
+      display: none;
+    }
+  }
