@@ -1,0 +1,22 @@
+/*.imagen{
+    width: 120px;
+    height: 120px;
+}
+.imagen:hover{
+    width: 60%;
+    height: 60%;
+    transition: 1s ease-in;
+}
+.small{
+    width: 25%;
+    height: 25%;
+}
+.evaluacion{
+	width: 100%;
+}
+form > div{
+	display:flex;
+}
+#confirmar{
+	display: none;
+}*/
