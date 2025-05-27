@@ -30,6 +30,7 @@ img:hover{
 }
 .niveles{
     text-align: justify;
+    margin: 5%;
 }
 .volver{
     text-align: center;
@@ -78,4 +79,16 @@ form > div{
 }
 #confirmar{
 	display: none;
+}
+@media (max-width: 600px) {
+    img{
+        width: 100%;
+    }
+    img:hover{
+        width: 100%;
+        transition: 1s ease-in;
+    }
+    .ejercicio{
+        width: 100%;
+    }
 }
