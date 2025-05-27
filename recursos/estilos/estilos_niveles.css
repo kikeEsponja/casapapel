@@ -30,7 +30,7 @@ img:hover{
 }
 .niveles{
     text-align: justify;
-    margin: 5%;
+    margin: 2.5%;
 }
 .volver{
     text-align: center;
@@ -81,6 +81,9 @@ form > div{
 	display: none;
 }
 @media (max-width: 600px) {
+    .niveles{
+        margin: 5%;
+    }
     img{
         width: 100%;
     }
