@@ -25,14 +25,15 @@
     <h2>Cualquier duda o consulta, no duden en escribirme.</h2>
     <div>
         <form action="./messent.php" method="POST">
-            <input class="btn btn-light" type="text" name="nombre" placeholder="nombre">
-            <input class="btn btn-light" type="email" name="correo" placeholder="correo">
-            <textarea class="btn btn-light" name="mensaje" id="mensaje" cols="80" rows="14" placeholder="escribe tu consulta"></textarea>
+            <input class="btn btn-info" type="text" name="nombre" placeholder="nombre">
+            <input class="btn btn-info" type="email" name="correo" placeholder="correo">
+            <textarea class="btn btn-info" name="mensaje" id="mensaje" cols="80" rows="14" placeholder="escribe tu consulta"></textarea>
             <button class="btn btn-primary" type="submit">enviar</button>
         </form>
     </div>
 
     <button id="volver">Volver</button>
+    <a href="../javascript.html">Ir al final</a>
     <script>
         let boton = document.getElementById("volver");
         boton.addEventListener("click", function() {

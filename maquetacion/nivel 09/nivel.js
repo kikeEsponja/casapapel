@@ -1,5 +1,5 @@
 let boton = document.getElementById("volver");
-boton.addEventListener("click", function() {
+boton.addEventListener("click", function(){
     window.history.back();
 });
 

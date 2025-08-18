@@ -74,8 +74,13 @@ button{
 .evaluacion{
 	width: 100%;
 }
-form > div{
+form{
 	display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+form > input{
+    margin: 0.2%;
 }
 #confirmar{
 	display: none;

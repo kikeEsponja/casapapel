@@ -24,6 +24,7 @@
 			      </div>
 			      <div class="modal-body bg-warning">
 			      	<h2 class="text-danger">BIEN HECHO!</h2>
+					<a href="../nivel 10/nivel.html">Avanza al siguiente nivel</a>
 			      </div>
 			      <div class="modal-footer bg-warning">
 			        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -33,15 +34,17 @@
 			</div>
 	    	<div>
 				<h3>Enlaces (links)</h3>
-	    		<h4>Conozcamos la etiqueta "a" que sirve para crear enlaces. Para funcionar, esta etiqeuta tiene un atributo "href" cuyo valor será la ruta a la que deseamos ir. Así: &lt;a href="https://ruta_de_internet">enlace&lt;/a> o &lt;a href="ruta_de_nuestro_proyecto">enlace&lt;/a></h4>
+	    		<h4>Conozcamos la etiqueta "a" que sirve para crear enlaces. Para funcionar, esta etiqueta tiene un atributo "href" cuyo valor será la ruta a la que deseamos ir. Así: &lt;a href="https://ruta_de_internet">enlace&lt;/a> o &lt;a href="ruta_de_nuestro_proyecto">enlace&lt;/a></h4>
 	    		<h4>Vamos a construir una etiqueta "a" con su respectivo atributo "href" que nos lleve a, por ejemplo, wikipedia. Si sabemos que la dirección de wikipedia es https://wikipedia.com, ese entonces será el valor del atributo "href" de la etiqueta "a"</h4>
-	    		<img src="./step01.png" class="imagen">
+	    		<img src="./step01.png" class="imagen" alt="etiqueta a" >
 	    		<h4>Excelente, ahora vamos a crear otro enlace, pero esta vez para una sección diferente dentro de nuestro mismo proyecto (otra página). Para ello, vamos a crear otra página web, de la misma forma que creamos index.html. Esta vez le llamaremos simplemente dos (dos.html). Y vamos a crear la misma estructura. Para facilitar las cosas, les voy a dejar una imagen con una plantilla que pueden usar para cualquier proyecto.</h4>
-	    		<img src="./step02.png" class="imagen">
-	    		<h4>Ok, les explico brevemente: en la plantilla hay dos etiquetas "meta" y están en la plantilla porque no veo la necesidad de que se aprendan esto de memoria, más sí de que las escriban cada vez que vayan a hacer un proyecto, de esta manera, de tanto hacerlo, terminan por aprenderselo. Cada etiqueta "meta" tiene atributos y valores, en la primera, el atributo "charset" tiene como valor "UTF-8" que permite a nuestra página, que está hecha en latino américa, aceptar los acentos, diéresis, eñes y otros (pueden probar a escribir algo con estos caracteres sin la etiqueta mencionada para que vean el resultado). Y la segunda etiqueta tiene el atributo "name" con el valor "viewport" que le dice al navegador que va a usar la pantalla, y el atributo "content" con el valor "width=device-width, initial-scale=1.0" para indicar que ese viewport sea de escala 1 = 1. También he agregado una etiqueta "title" con un título que aparecerá en la pestaña, simplemente.</h4>
+	    		<img src="./step02.png" class="imagen" alt="etiqueta a" >
+	    		<h4>Ok, les explico brevemente: en la plantilla hay dos etiquetas "meta" y están en la plantilla porque no veo la necesidad de que se aprendan esto de memoria, más sí de que las escriban cada vez que vayan a hacer un proyecto, de esta manera, de tanto hacerlo, terminan por aprenderselo.</h4> 
+				<h4>Cada etiqueta "meta" tiene atributos y valores. En la primera, el atributo "charset" tiene como valor "UTF-8" que permite a nuestra página, que está hecha en latino américa, aceptar los acentos, diéresis, eñes y otros (pueden probar a escribir algo con estos caracteres sin la etiqueta mencionada para que vean el resultado).</h4> 
+				<h4>Y la segunda etiqueta tiene el atributo "name" con el valor "viewport" que le dice al navegador que va a usar la pantalla, y el atributo "content" con el valor "width=device-width, initial-scale=1.0" para indicar que ese viewport sea de escala 1 = 1. También he agregado una etiqueta "title" con un título que aparecerá en la pestaña, simplemente.</h4>
 	    		<h4>Esa etiqueta extraña que está en medio de la etiqueta "body" es lo que se conoce como un comentario y todo lo que vaya entre esas dos simbologías (&lt;!-- y -->) será ignorado y no se mostrará.</h4>
 	    		<h4>Bien, podemos dejar el comentario o eliminarlo, porque enseguida vamos a agregar una etiqueta "h1" y escribiremos cualquier cosa, yo escribiré página dos. Guardamos y volvemos a nuestro archivo index.html para agregar la otra etiqueta "a" con su atributo "href" cuyo valor será la ruta hasta nuestro archivo dos.html.</h4>
-	    		<img src="./step01.png" class="imagen">
+	    		<img src="./step01.png" class="imagen" alt="etiqueta a" >
 	    		<h4>Para que practiquen, les dejaré que, en la página dos.html agregen un enlace que nos permita volver a index.html.</h4>
 	    		<h4>En index.html van a crear otro enlace, al final de todo, que nos permita simplemente ir hasta arriba sin tener que hacer scroll con el ratón (mover la ruedita del medio)</h4>
 			</div>
@@ -61,12 +64,12 @@
 			<br>
 
 			<div class="ejercicio">
-	    		<h4>Una etiqueta <span class="text-light">&lt;a></span> puede tener más de un atributo?</h4>
+	    		<h4>Una etiqueta <span class="text-danger">&lt;a></span> puede tener más de un atributo?</h4>
 	    		<div class="ejercicio" id="miboton">
 	    	    	<p>elije la respuesta correcta:</p>
 	    	    	<button type="button" class="mal" id="mal4">a- Sí, pero sólo uno más aparte del atributo "src"</button>
 	    	    	<button type="button" class="mal" id="mal5">b- No, la etiqueta &lt;a> no debe contener ningún atributo</button>
-	    	    	<button type="button" class="mal" id="bien" data-bs-toggle="modal" data-bs-target="#exampleModal">c- Sí, como el resto de las etiquetas</button>
+	    	    	<button type="button" class="mal" id="bien_2" data-bs-toggle="modal" data-bs-target="#exampleModal">c- Sí, como el resto de las etiquetas</button>
 	    	    	<button type="button" class="mal" id="mal6">d- No, la etiqueta &lt;a> sólo puede contener el atributo "src"</button>
 	    		</div>
 			</div>

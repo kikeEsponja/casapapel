@@ -12,7 +12,7 @@ const modal = document.getElementById('evaluar');
 let confirmar = document.getElementById('confirmar');
 
 modal.addEventListener('click', ()=>{
-	if(etiqueta.value === '<img src="./perro.jpg">' && boton.value === '<img src="../imagen_principal.jpg">'){
+	if(etiqueta.value === '<img src="./imagen/perro.jpg">' && boton.value === '<img src="../imagen/imagen_principal.jpg">'){
         confirmar.style.display = 'flex';
     }else{
 	    repaso();

@@ -14,14 +14,14 @@ modal.addEventListener('click', ()=>{
 	if(etiqueta.value === '<img>' && boton.value === '<button>nombre</button>'){
         confirmar.style.display = 'flex';
     }else{
+        intentos = intentos - 1;
 	    repaso();
-	    intentos = intentos - 1;
         alert('te quedan ' + intentos + ' intentos');
     }
 });
 
 function repaso(){
-    if(intentos < 1){
+    if(intentos == 0){
         alert('debes repasar!');
         window.history.back();
     }

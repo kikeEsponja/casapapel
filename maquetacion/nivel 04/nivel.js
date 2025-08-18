@@ -21,7 +21,7 @@ mal3.addEventListener('click', evaluar);
 mal4.addEventListener('click', evaluar);
 
 function repaso(){
-    if(intentos < 1){
+    if(intentos == 0){
         alert('debes repasar!');
         window.history.back();
     }

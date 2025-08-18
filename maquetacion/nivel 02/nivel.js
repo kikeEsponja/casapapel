@@ -17,3 +17,10 @@ const evaluar = () => {
 mal1.addEventListener('click', evaluar);
 mal2.addEventListener('click', evaluar);
 mal3.addEventListener('click', evaluar);
+
+function repaso(){
+    if(intentos_sel == 0){
+    	alert('debes repasar!');
+    	window.history.back();
+    }
+}

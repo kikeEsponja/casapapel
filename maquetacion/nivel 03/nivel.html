@@ -24,6 +24,7 @@
   			      </div>
   			      <div class="modal-body bg-warning">
   			      	<h2 class="text-danger">BIEN HECHO!</h2>
+					<a href="../nivel 04/nivel.html">Avanza al siguiente nivel</a>
   			      </div>
   			      <div class="modal-footer bg-warning">
   			        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -35,31 +36,32 @@
 			<div>
     		    <h4>Es momento de aplicar lo que hemos aprendido y construir nuestra primera página web. Es tan, pero tan sencillo como crear un archivo dentro de nuestra carpeta con el bloc de notas, ponerle un nombre y la extensión html. (sí, así de simple). Yo crearé uno y lo llamaré pagina. <br><img class="imagen" src="./step01.png"> <img class="imagen" src="./step02.png"></h4>
     			<h4>Al hacer doble clic en nuestro nuevo archivo, y según lo que hemos aprendido, la aplicación predeterminada para abrir archivos con esta extensión es el navegador o browser (en inglés). Obviamente lo que veremos será una página en blanco.</h4>
-    			<img class="imagen" src="./step03.png">
+    			<img class="imagen" src="./step03.png" alt="página en blanco">
     			<br>
     			<h4>Comprendido esto, vamos a poner cosas dentro de este espacio en blanco, entonces es cuando toca un nuevo objetivo: ETIQUETAS</h4>
     			<h4>Las etiquetas son el componente principal que conforma el contenido de una página web, vamos a ver dos tipos: simples y compuestas</h4>
     			<ul>
-    		    	<li>las simples se construyen encerrando el nombre de la etiqueta entre dos símbolos de mayor qué y menor qué. Así: &lt; nombre > &lt;nombre></li>
+    		    	<li>las simples se construyen encerrando el nombre de la etiqueta entre dos símbolos de mayor qué y menor qué. Así: &lt; nombre > o bien &lt;nombre></li>
     		    	<li>las compuestas se construyen con una etiqueta simple que abre y otra que cierra; a la etiqueta de cierre, le agregamos una barra invertida o slash antes del nombre. Así: &lt; nombre > &lt;/ nombre ></li>
     		    	<li>Generalmente, este tipo de etiquetas encierra algún tipo de contenido: &lt; nombre > contenido &lt;/ nombre ></li>
     			</ul>
     			<h4>Teniendo esto claro, podemos hablar del siguiente tema: el INDENTADO</h4>
     			<h4>No es más que una sangría, un margen que dejamos para que nuestro código sea entendible, como todo, tiene sus reglas, y para entenderlas, es necesario ver a las etiquetas como unas cajas que contienen cosas, incluso otras etiquetas, veamos cómo funciona el indentado con otro concepto: Padres e hijos (o hijas)</h4>
-    			<h4>Con el indentado podemos saber cuales elementos son padres y cuales los hijos. Podemos tomar el ejemplo de la etiqueta nombre que creamos anteriormente y la escribimos así ese espacio que diferencia contenido de las etiquetas "nombre" se llama indentado, y podemos decir que "contenido es hijo (o hija) de "nombre"</h4>
-				<img class="small" src="./step04.png">
+    			<h4>Con el indentado podemos saber cuáles elementos son padres y cuáles elementos son hijos. Podemos tomar el ejemplo de la etiqueta nombre que creamos anteriormente y la escribimos así: </h4>
+				<img class="small" src="./step04.png" alt="etiqueta nombre indentada">
+				<h4>Ese espacio que diferencia contenido de las etiquetas "nombre" se llama indentado, y podemos decir que "contenido" es hijo (o hija) de "nombre".</h4>
     			<h4>ANIDACIÓN es otro término muy usado y sólo quiere explicar la colocación de elementos dentro de otro elemento, así como una caja dentro de otra caja. Crearé una etiqueta llamada "caja" y dentro, anidaré la etiqueta "nombre" Así "caja" es padre de "nombre"</h4>
-				<img class="small" src="./step05.png">
+				<img class="small" src="./step05.png" alt="etiqueta nombre indentada">
 			</div>
 			<br>
 		
 			<div class="ejercicio">
     			<h3 class="text-warning practicando">Practiquemos un poco: </h3>
     			<form>
-    		    	<label for="etiqueta">crea una etiqueta simple para contener imágenes:</label>
+    		    	<label for="etiqueta">crea una etiqueta simple "img", que se usa para contener imágenes:</label>
     		    	<input type="text" id="etiqueta" class="evaluacion">
     		    	<br>
-    		        <label for="boton">crea una etiqueta compuesta para crear un botón que se llame nombre:</label>
+    		        <label for="boton">crea una etiqueta compuesta "button" para crear un botón, como contenido debrá tener el texto "nombre":</label>
     		    	<input type="text" id="boton" class="evaluacion">
     		    	<div>
     		    		<button type="button" id="evaluar">evaluar</button>

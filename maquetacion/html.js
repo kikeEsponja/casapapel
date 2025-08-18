@@ -5,9 +5,21 @@ boton.addEventListener("click", function() {
 
 let intentos = 1;
 
-document.getElementById('miboton').addEventListener('contextmenu', (event) =>{
+let botonDerRaton = document.getElementById('miboton');
+botonDerRaton.addEventListener('contextmenu', (event) =>{
     event.preventDefault();
-    alert('FELICIDADES!!');
+	let contenedor = document.getElementById('contenedor');
+    //let instruccion = document.getElementById('instruccion');
+    let siguiente = document.createElement('a');
+	let felicidades = document.createElement('p');
+	felicidades.textContent = 'FELICIDADES!';
+    felicidades.style.color = 'green';
+	siguiente.textContent = 'pasa al siguiente nivel';
+	siguiente.href = '../nivel 02/nivel.html';
+	contenedor.appendChild(felicidades);
+	contenedor.appendChild(siguiente);
+    botonDerRaton.style.display = 'none';
+    //instruccion.style.display = 'none';
 });
 
 document.getElementById('miboton').addEventListener('click', (event) =>{
